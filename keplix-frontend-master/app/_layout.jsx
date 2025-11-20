@@ -1,3 +1,4 @@
+import "../global.css";
 import {useFonts} from "expo-font";
 import { createStackNavigator } from "@react-navigation/stack";
 import LoginScreen from "@/components/Vendor/Login";
@@ -86,7 +87,7 @@ export default function RootLayout() {
 
   return (
     
-      <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
+      <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="HomePage">
         <Stack.Screen name="Home" component={LoginScreen} />
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="SignInPhone" component={SignInPhone} />

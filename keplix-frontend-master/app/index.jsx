@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import Login from '../components/Vendor/Login'
+import HomePage from '../components/Vendor/HomePage/HomePage'
 
 export default function Index() {
   return (
@@ -8,7 +8,7 @@ export default function Index() {
     backgroundColor: '#fff',
     }}>
          
-    <Login/>
+    <HomePage/>
     </View>
   );
 }
